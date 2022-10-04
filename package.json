@@ -1,0 +1,24 @@
+{
+  "name": "coda-wtf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/index.css -o ./public/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codalabsau/coda-wtf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codalabsau/coda-wtf/issues"
+  },
+  "homepage": "https://github.com/codalabsau/coda-wtf#readme",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.1.8"
+  }
+}
